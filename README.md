@@ -3,7 +3,7 @@
 ![GNU Bash logo](./assets/gnu-bash-logo.svg.png)
 
 
-# What is Bash?
+# History of Bash
 First before answering that, you must know the shell has a pretty extensive history! The first UNIX shell that was significant was the Borune Shell, by Stephen Bourn. Based off the esoteric langauge `Algol`, It did its job in automation well, but lacked many features like interactive use (couldn't move your cursor around), No history, and weak job control meaning you had to wait or kill the process, suspending did not exist. 
 
 Next came the `C Shell` by Bill Joy (yes thats his name), and it fixed many of the issues mentioned above such as interactivity and history.
