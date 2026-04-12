@@ -10,4 +10,6 @@ Next came the `C Shell` by Bill Joy (yes thats his name), and it fixed many of t
 
 Now with the `C Shell` and `sh` users were debaiting what shell to use, then came along David Korn of AT&T who created the `Korn Shell`, it released in 1986. Being fast and efficient, providing many features of the `C Shell` and `Bourn Shell`, as well as basically running anywhere at the time (UNIX/Linux, OS/2, VMS, and DOS), there was no debate which shell to use, it was the best. It quickly became part of the official UNIX distribution. 
 
-GNU's `Bourn Againe Shell (BASH)` was a shell created by Brian Fox in 1988 In an attempt to open 
+However, my open sourcerers, you may notice that the `Korn Shell` is tied to AT&T. This ended up meaning that `Korn` came with a license that was dificult to work with. 
+
+With the Free Software Movement starting to take off in the late 1980's after being launched by Richard Stallman's GNU Project, GNU was looking to create a free and powerful shell to use. GNU's `Bourn Againe Shell (BASH)` was a shell created by Brian Fox of the Free Software Foundation in 1988. It took the best of both worlds of `Korn` and `Bourne` Shell and added onto that, introducing cool features such as environmental variables, command completion, and regular expressions. It became widly addapted with Linux and is still used to this day! 
