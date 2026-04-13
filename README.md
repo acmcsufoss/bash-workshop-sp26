@@ -4,7 +4,8 @@ _Open Source - Spring 2026_
 
 ![GNU Bash logo](./assets/gnu-bash-logo.svg.png)
 
-[! Note] This workshop is intended to be done inside a terminal.
+> [!IMPORTANT] 
+> This workshop is intended to be done inside a terminal.
 
 # What is Bash?
 
