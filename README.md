@@ -42,13 +42,12 @@ expressions. It became widly addapted with Linux and is still used to this day!
 ## Functional Purpose
 
 Bash is used to command the operating system and run automated tasks. While it
-is Turing complete it will get in your way when trying to do more complex things
-such as GUI work. So why use it over just a regular programming language like
-python?
+is Turing complete it is not ideal for tasks like making a GUI program. So why
+use it over just a regular programming language like python?
 
-Simply put, bash was meant to automate tasks in the operating system. It can
-directly interact with the hardware, and with piping, a single line of Bash can
-equate to 20 lines of python.
+Simply put, bash was meant to be a glue that automate tasks in the operating
+system. It can directly interact with the hardware, and with piping, a single
+line of Bash can equate to 20 lines of python.
 
 What type of automation work does Bash deal with in the real world? Bash is VERY
 frequently used in the world of CI/CD and DevOps in general to automate
