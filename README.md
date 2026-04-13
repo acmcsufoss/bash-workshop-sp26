@@ -4,6 +4,8 @@ _Open Source - Spring 2026_
 
 ![GNU Bash logo](./assets/gnu-bash-logo.svg.png)
 
+[! Note] This workshop is intended to be done inside a terminal.
+
 # What is Bash?
 
 ## History
@@ -54,3 +56,8 @@ frequently used in the world of CI/CD and DevOps in general to automate
 deployment, logging, massive file manipulation, and more!
 
 ---
+
+## Lets begin!
+
+To start, use `cat` to read `basic_commands.md`. (Maybe use `clear` first to
+clean your terminal)
