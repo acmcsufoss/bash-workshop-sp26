@@ -3,8 +3,6 @@
 Lets start with the basics, there are a few bash commands that should are
 extremely common in terminal use these being:
 
-`cat ls cd pwd curl man`
-
 `cat` Concatenate: Outputs the contents of the file into your terminal. You are
 using `cat` to view this text right now!
 
@@ -39,6 +37,6 @@ tools will have this flag and it explains what the tool and it's flags do.
 Now it is time to move on, lets change directories into the directory named
 basics. We can use `ls` to look for `1. Basics`.
 
-Hold on? `ls` is not listing the directory? How can we get `ls` to list all
-directories? Let's use `ls --help` to see if there is a flag that can help us to
+Wait a minute. `ls` is not listing the directory? How can we get `ls` to list all
+hidden files? Let's use `ls --help` to get a flag that can 
 display all files in this directory.
