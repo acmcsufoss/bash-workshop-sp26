@@ -33,6 +33,8 @@ There also exist sspecial global variables such as: `$PATH` (A variable that sto
 Written as so:
 
 ```
+#!/bin/bash
+
 if [ condition ]; then
     # Do something
 fi
@@ -63,10 +65,16 @@ When compairing numbers, we use the following flags: -eq -ne, -lt, -le, -gt or -
 
 Example:
 ```
+#!/bin/bash
 cookies=5
 if [ $cookies -gt 1 ]; then
     echo "I have" $cookies "cookies for my friends!"
 fi
+```
+Out:
+```
+$ ./cookies.sh
+I have 5 cookies for my friends!
 ```
 
 ##### String Conditions
