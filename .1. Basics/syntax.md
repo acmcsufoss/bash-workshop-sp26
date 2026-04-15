@@ -9,3 +9,18 @@ First, at the start of every shell script is a shebang line, you may have seen i
 
 
 ### Variables 
+
+Assignment: `name="Bob"`
+
+Accessing: `$name`
+
+Special Variables:
+```
+$0 <- Name of the script
+$1,$2,...,$n <- Arguments passed into the script
+$# <- Total number off arguments passed
+$? <- Exit status of last command
+$$ <- PID of the current process
+```
+
+There also exist sspecial global variables such as: `$PATH` (A variable that stores where programs can be found), `$HOME` (your home directory), `$SHELL` (Your current shell), and more!
