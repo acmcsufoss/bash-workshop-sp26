@@ -80,4 +80,50 @@ There also exists < and > for compairing lexicographical order.
 There are sooo many cool conditions you can do in Bash but we do not have time to look at all of them. If you are intrested though, go ahead and take a look at [`The Linux Documentation Project's` bash guide here!](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 
+---
 
+### Loops
+
+##### For Loop
+
+Probably your most useful loop in bash, you iterate through a list of elements.
+
+Example:
+```
+#!/bin/bash
+
+for fruit in Apple Orange Pear 
+do
+    echo $fruit
+done
+```
+Out:
+```
+$ ./fruits.sh
+Apple
+Orange
+Pear
+```
+
+##### Over a Range  
+
+Similar to above but instead of a list of elements, you use the syntax {START..END}.
+
+Example:
+```
+#!/bin/bash
+
+for i in {1..5}
+do
+    echo $i
+done
+```
+Out:
+```
+$ ./nums.sh
+1
+2
+3
+4
+5
+```
