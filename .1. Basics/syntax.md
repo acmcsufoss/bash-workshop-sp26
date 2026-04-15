@@ -64,8 +64,8 @@ When compairing numbers, we use the following flags: -eq -ne, -lt, -le, -gt or -
 Example:
 ```
 cookies=5
-if [ cookies -gt 1 ]; then
-    echo "I have" cookies "cookies for my friends!"
+if [ $cookies -gt 1 ]; then
+    echo "I have" $cookies "cookies for my friends!"
 fi
 ```
 
