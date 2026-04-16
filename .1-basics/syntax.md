@@ -1,6 +1,6 @@
 # Bash Syntax
 
-Bash has variables, loops, and conditional statements, just like programing languages. Typically, this is used in a file called a shell script.
+Bash has variables, loops, and conditional statements, just like programming languages. Typically, this is used in a file called a shell script.
 
 ## The Script 
 First, at the start of every shell script is a shebang line, you may have seen it, it looks like so:
@@ -13,7 +13,6 @@ First, at the start of every shell script is a shebang line, you may have seen i
 Next type in what you want the script to do, we can just write `echo "Hello World!"` for now.
 
 Now you should have something like this:
-<small>first.sh</small>
 ```
 #!/bin/bash
 # OR
@@ -49,12 +48,12 @@ Special Variables:
 ```
 $0 <- Name of the script
 $1,$2,...,$n <- Arguments passed into the script
-$# <- Total number off arguments passed
+$# <- Total number of arguments passed
 $? <- Exit status of last command
 $$ <- PID of the current process
 ```
 
-There also exist sspecial global variables such as: `$PATH` (A variable that stores where programs can be found), `$HOME` (your home directory), `$SHELL` (Your current shell), and more!
+There also exist special global variables such as: `$PATH` (A variable that stores where programs can be found), `$HOME` (your home directory), `$SHELL` (Your current shell), and more!
 
 ---
 
@@ -80,11 +79,11 @@ fi
 
 Single [] is POSIX compliant (works with any bourne based shells). It's older, more portable but more fragile.
 
-Double [[]] is not as portable, however it offers a lot of qaulity of life features like supporting wildcards and regex. Generally it's safer to use and you get less suprises with this one.
+Double [[]] is not as portable, however it offers a lot of quality of life features like supporting wildcards and regex. Generally it's safer to use and you get less surprises with this one.
 
 ##### Arthimitic Conditions
 
-When compairing numbers, we use the following flags: -eq -ne, -lt, -le, -gt or -ge. 
+When comparing numbers, we use the following flags: -eq -ne, -lt, -le, -gt or -ge. 
 
 `-eq`: Equal
 `-ne`: Not Equal
@@ -109,9 +108,9 @@ I have 5 cookies for my friends!
 
 ##### String Conditions
 
-For strings there are the clasic operations `==` and `!=`. 
+For strings there are the classic operations `==` and `!=`. 
 
-There also exists < and > for compairing lexicographical order.
+There also exists < and > for comparing lexicographical order.
 
 Example:
 ```
