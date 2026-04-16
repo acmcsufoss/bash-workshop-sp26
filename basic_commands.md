@@ -28,7 +28,7 @@ command, for example `ls -l` gives you a more detailed look at the files in your
 directory.
 
 If there is a flag you need to keep in your heart, it will be `--help`. Most
-tools will have this flag and it explains what the tool and it's flags do.
+tools will have this flag and it explains what the tool and its flags do.
 
 ---
 
