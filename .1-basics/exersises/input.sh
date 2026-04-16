@@ -6,8 +6,11 @@
 #
 # TODO: Greet the user when they input their name.
 # 	Tell the user if they forgot an input.
+
+
+
 if [ $# -gt 0 ]; then
-	# Your code here
+	: # Remove these colons when coding, they are similar to Python's `pass`
 else
-	# Your code here
+	:
 fi
