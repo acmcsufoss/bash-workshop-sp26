@@ -127,7 +127,7 @@ fi
 
 ##### More
 
-There are sooo many cool conditions you can do in Bash but we do not have time to look at all of them. If you are intrested though, go ahead and take a look at [`The Linux Documentation Project's` bash guide here!](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
+There are sooo many cool conditions you can do in Bash but we do not have time to look at all of them. If you are interested though, go ahead and take a look at [`The Linux Documentation Project's` bash guide here!](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_07_01.html)
 
 
 ---
