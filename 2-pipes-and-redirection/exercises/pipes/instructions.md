@@ -4,7 +4,7 @@ You may have noticed a file called `beemovie.txt`.
 
 Yes, that is the Bee Movie script, Kelly at work is curious about how the Bee Movie script is structured. So one night, you suddenly find the Bee Movie script on your computer. 
 
-Let’s use Bash tools to investigate the script!
+Let’s use some tools to investigate the script!
 
 ---
 
