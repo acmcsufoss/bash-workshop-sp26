@@ -1,2 +1,0 @@
-[    SERVER    ] This is the beggning of logs
-[    LOGIN     ] Bob has logged in at Thu Apr 16 19:56:37 PDT 2026
