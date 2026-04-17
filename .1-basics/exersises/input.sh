@@ -11,7 +11,7 @@
 name=$1
 
 if [ $# -gt 0 ]; then
-	echo "Hello" $name"!"
+	echo "Hello $name!"
 else
 	echo "No one has logged on"
 fi

@@ -19,7 +19,7 @@ do
 	name=${desserts[$i]}
 	cals=${calories[$i]}
 	if [[ $cals -le $limit ]]; then
-		echo "Bob can eat" $name":" $cals
+		echo "Bob can eat $name: $cals"
 	fi
 
 done
