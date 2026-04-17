@@ -8,6 +8,19 @@
 # 	directory and print if the file is present or not
 
 
+find_file=$1
+
+for file in $(ls)
+do
+	if [[ $file == $find_file ]]; then 
+		echo "Found" $find_file "in current direcotry"
+		exit	
+	fi
+done
+
+echo "Could not find" $find_file "in current directory"
+
+
 
 
 

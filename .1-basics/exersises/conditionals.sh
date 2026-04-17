@@ -11,12 +11,17 @@
 
 desserts=("cookie" "cake" "apple_fritter" "honey_bun" "strawberries")
 calories=(240 360 460 360 50)
+limit=$1
 
 # array[@] means all elements, ! gets the key index
 for i in "${!desserts[@]}"
 do
 	name=${desserts[$i]}
 	cals=${calories[$i]}
-
+	if [[ $cals -le $limit ]]; then
+		echo "Bob can eat" $name":" $cals
+	fi
 
 done
+
+

@@ -8,9 +8,10 @@
 # 	Tell the user if they forgot an input.
 
 
+name=$1
 
 if [ $# -gt 0 ]; then
-	: # Remove these colons when coding, they are similar to Python's `pass`
+	echo "Hello" $name"!"
 else
-	:
+	echo "No one has logged on"
 fi
